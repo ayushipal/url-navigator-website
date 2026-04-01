@@ -1,11 +1,10 @@
 {
   "name": "protocorp-backend",
   "version": "1.0.0",
-  "main": "index.js", 
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node server.js"
   },
-
   "dependencies": {
     "axios": "^1.14.0",
     "cors": "^2.8.6",
