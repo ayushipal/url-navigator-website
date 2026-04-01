@@ -1,7 +1,10 @@
 import axios from "axios";
 
+// Use environment variable for backend URL
+const BASE_URL = process.env.REACT_APP_API_URL; 
+
 const API = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: `${BASE_URL}/api`,  // dynamically points to backend
 });
 
 export const uploadFile = (file) => {
