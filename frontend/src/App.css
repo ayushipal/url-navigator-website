@@ -1,0 +1,15 @@
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.viewer {
+  margin-top: 20px;
+  border: 2px solid #ddd;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
